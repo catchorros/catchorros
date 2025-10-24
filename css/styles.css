@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    & img{
+        height: 120px;
+    }
+    & p{
+
+    }
+}
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+    padding: 30px;
+    & img{
+        height: 60px;
+        width: auto;
+        padding: 30px;
+    }
+    & p{
+        position: fixed;
+        width: 250px;
+        height: 35px;
+        bottom: 35px;
+        right: 90px;
+        z-index: 100;
+        padding: 5px;
+        background-color: #32b361;
+        border-radius: 10px;
+        z-index: -1;
+        color: aliceblue;
+        text-align: center;
+        align-content: center;
+
+    }
+}
